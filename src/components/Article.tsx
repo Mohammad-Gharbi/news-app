@@ -6,14 +6,14 @@ export function Article({ data }: any) {
     <a
       href={data.url}
       target="_blank"
-      className="hover:outline outline-offset-4 outline-2 outline-blue-500	 hover:scale-[1.05] transition-all flex flex-col rounded-xl bg-slate-800 w-80 h-96 m-4 items-center "
+      className="m-4 flex h-96 w-80 flex-col	 items-center rounded-xl bg-slate-800 p-3 outline-2 outline-offset-4 outline-blue-500 transition-all hover:scale-[1.05] hover:outline "
     >
       <img
-        className="w-full h-40 rounded-t-xl mb-4"
+        className="mb-4 h-40 w-full rounded-xl"
         src={data.urlToImage}
         alt=""
       />
-      <div className="flex flex-col justify-between p-3 h-full">
+      <div className="flex h-full flex-col justify-between p-3">
         <div className="">
           <Badge className="text-sm" colorScheme="blue" mb="1" w="fit-content">
             {date.toDateString()}
