@@ -10,3 +10,7 @@ https://[].netlify.app/
 - React.
 - Typescript
 - Tailwind Css.
+
+## Note
+
+The app works only on Local environment due to API restrictions.
