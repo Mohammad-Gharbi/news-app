@@ -8,4 +8,5 @@ https://[].netlify.app/
 
 - News API : https://newsapi.org/
 - React.
+- Typescript
 - Tailwind Css.
